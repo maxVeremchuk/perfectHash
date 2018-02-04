@@ -91,7 +91,6 @@ public:
 		prime = HashPrimeNumber;
 		hashA = rand() % prime;
 		hashB = 1 + rand() % (prime - 1);
-		//cout << "Hash ab:" << hashA << " " << hashB << endl;
 	}
 
 	vector<vector<int>> getElements()
