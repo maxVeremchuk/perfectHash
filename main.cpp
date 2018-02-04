@@ -171,11 +171,3 @@ int main()
 
 	return 0;
 }
-
-//hash ab : 81 78
-//85 69 71 90 73
-//Node ab : 21 56
-//Node ab : 20 48
-//Node ab : 49 30
-//Node ab : 85 35
-//Node ab : 41 17
