@@ -31,7 +31,6 @@ public:
 		b = 1 + rand() % (prime - 1);
 		//cout << "Node ab:" << a << " " << b << endl;
 	}
-	//friend int hash(int, int, int, int, int);
 	void Construct(vector<int> input)
 	{
 		if (input.empty())
