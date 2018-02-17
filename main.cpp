@@ -29,8 +29,9 @@ public:
 		prime = HashPrimeNumber;
 		a = rand() % prime;
 		b = 1 + rand() % (prime - 1);
-		//cout << "Node ab:" << a << " " << b << endl;
+		
 	}
+
 	void Construct(vector<int> input)
 	{
 		if (input.empty())
